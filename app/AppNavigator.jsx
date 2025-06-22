@@ -14,12 +14,15 @@ export default function AppNavigator() {
         <Stack.Navigator initialRouteName="Login">
             <Stack.Screen name="Login" component={LoginScreen} options={{
                 headerShown: false,
+                gestureEnabled: false, 
             }} />
             <Stack.Screen name="User" component={UserHome} options={{
                 headerShown: false,
+                gestureEnabled: false, 
             }} />
             <Stack.Screen name="Delivery-Agent" component={AgentHome} options={{
                 headerShown: false,
+                gestureEnabled: false, 
             }} />
 
         </Stack.Navigator>
